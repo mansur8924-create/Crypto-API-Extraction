@@ -214,7 +214,7 @@ class CryptoExecutivePipeline:
                 print(f"❌ SYSTEM ERROR: {e}")
 
 if __name__ == "__main__":
-    # PORTABLE FILENAME: Saves directly into the project folder for GitHub compatibility.
+    
     REPORT_NAME = 'Professional_Crypto_Dashboard.xlsx'
     
     bot = CryptoExecutivePipeline(REPORT_NAME)
@@ -227,3 +227,4 @@ if __name__ == "__main__":
             time.sleep(1800) 
     except KeyboardInterrupt:
         print("\n🛑 Manual Override: Pipeline safely deactivated.")
+
