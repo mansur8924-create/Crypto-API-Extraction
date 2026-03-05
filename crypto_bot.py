@@ -223,8 +223,8 @@ if __name__ == "__main__":
     try:
         while True:
             bot.run_cycle()
-            # Professional cycle interval (30 Minutes)
             time.sleep(1800) 
     except KeyboardInterrupt:
         print("\n🛑 Manual Override: Pipeline safely deactivated.")
+
 
