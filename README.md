@@ -1,5 +1,6 @@
 # Crypto-API-Extraction
  Project Overview
+
 This project demonstrates the automated extraction of live financial data using the CoinMarketCap API. I developed a Python pipeline that requests real-time price, volume, and market cap data for the top cryptocurrencies. This data is then normalized and stored in a structured format for longitudinal price-trend analysis.
 
  Tools & Technologies
